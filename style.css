@@ -1,0 +1,21 @@
+h1, p {
+  font-family: Lato;
+}
+
+.react-select__control {
+  box-shadow: 1px 1px 1px red;
+}
+
+.react-select__control--is-focused  {
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 1px 1px red;
+}
+
+.react-select__option--is-focused {
+  background-color: red;
+}
+
+.react-select__option--is-selected {
+  background-color: teal;
+}
